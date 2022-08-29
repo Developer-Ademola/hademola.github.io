@@ -1,0 +1,45 @@
+/*h2{
+	color: red;
+	background-color: black;
+}
+p{
+	color: green;
+}
+
+a{
+	text-decoration: none;
+	text-decoration-color: magenta;
+	color: red;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	cursor: pointer;
+}*/
+body{
+	margin: 0px;
+}
+.container{
+	display: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 0px;
+}
+img{
+	width: 400px;
+	height: 250px;
+	margin: 10px;
+	transition: all 4s;
+}
+img:hover{
+	transform: scale(1.1);
+}
